@@ -17,7 +17,7 @@ class _MyHomePageState extends State<MyHomePage> {
     if(response.statusCode==200){
        data=jsonDecode(response.body.toString());
     }else{
-      
+      Text('Loding');
     }
 
 
